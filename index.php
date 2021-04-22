@@ -1,12 +1,10 @@
 <HTML>
-<script>
-window.onload = function(){
-setInterval(clockPainting, 1000);}
-</script>
-<script src="js/clock1.js"></script>
-	<HEAD>
-		<meta charset="utf-8">
-		<title>Сайт web-студіо "Web-DECO"</title>
+<HEAD>
+	<meta charset="utf-8">
+	<title>Сайт web-студіо "Web-DECO"</title>
+	
+		
+		
 	<script type="text/javascript">
 	function sent()
 	{
@@ -108,6 +106,17 @@ setInterval(clockPainting, 1000);}
         ctx.restore();
     }
 	</script>
+	
+	<script>
+window.onload = function(){
+setInterval(clockPainting, 1000);}
+</script>
+<script src="js/clock1.js"></script>
+
+
+
+
+
 	<style>
 	.shadowtext{
 		text-shadow: 1xp 3xp 2xp white, 0 0 1em red;
@@ -115,29 +124,38 @@ setInterval(clockPainting, 1000);}
 		font-size: 2em;
 	}
 	</style>
+	
+	
+	
+	
+	
+	
 	</HEAD>
 	<BODY background="images/bg.jpg">
-<h1 align="center">Список зареєстрованих!</h1>
-	<table border="1" align="center" cellpadding="10">
 
-		</table>
+	<table border="1" align="center" cellpadding="">
+	
+
 			<td background="images/bg-3.jpg" colspan="2" height="150" align="right"><font size="5"><h1 class="shadowtext">Сайт web-студії "Web-DECO"</h1></font></td>
-		</tr>
 		<tr>
 			<td colspan="2">
 			 <font size="4"><b>
-			 <a href="#">Головна</a>&nbsp;&nbsp;
+			 <a href="index.php">Головна</a>&nbsp;&nbsp;
 			 <a href="#">Фотогалерея</a>&nbsp;&nbsp;
 			 <a href="#">Телефени</a>&nbsp;&nbsp;
 			 <a href="#">Статистика</a>&nbsp;&nbsp;
-			 <a href="#">Зареєстровані</a>&nbsp;&nbsp;
+			 <a href="forma.php">Зареєстровані</a>&nbsp;&nbsp;
 			</b></font>
 			</td>
 		</tr>
-		<tr>
+		
+		
+		
 			<td width="30%" valign="top">
 <center><canvas id="canvas" height="120" width="120"></canvas></center>
 <hr>
+
+
 			 <font size="5" color="navy"><h2>Новини</h2></font>
 				<font size="5">
 			<ul>
@@ -150,6 +168,9 @@ setInterval(clockPainting, 1000);}
 			</ul>
 			</font>
 		<hr>
+		
+		
+		
 	<h1 align="center"><font color="green">Реєстрація</font></h1>
 	<form action="forma.php" method ="post" onsubmit="return send();">
 	<TABLE align="center" bgcolor="#ccc">
@@ -175,6 +196,10 @@ setInterval(clockPainting, 1000);}
 		</form>
 		</hr>
 			</td>
+			
+			
+			
+			
 			<td width="70%">
 <p>Зробити сайт з нами легко</p>
 <p> Створення власного сайту - це не тільки прерогатива великого бізнесу. Інтернет відкриває широкі можливості в першу чергу для малого бізнесу, для приватної підприємницької ініціативи. Адже, при започаткуванні власної справи розробка сайту потребує зовсім невеликих інвестицій, у порівнянні з іншими видами витрат. Створити сайт, в більшості випадків - це значно дешевше, наприклад, ніж оренда офісу, чи витрати на зарплату працівників.</p>
@@ -215,13 +240,14 @@ setInterval(clockPainting, 1000);}
 <p>Звертайтесь до веб-студії Web-DECO, і ми з радістю застосуємо свої здібності і досвід для вирішення Ваших задач! Ми можемо створити сайт, який стане для Вас вдалою інвестицією.</p>
 
 			</td>
-		</tr>	
+		</tr>
+
+		
 		<tr>
 			<td background="images/bg-3.jpg" colspan="2" valign="middle" height="90">
-			<font size="4">Сайт розробила "Лисенко Анастасія"</font>
+			<font size="4">Сайт розробила Лисенко Анастасія</font>
 			</td>
 		</tr>
-	 </table>
-	
+	</table>
 	</BODY>
 </HTML>
