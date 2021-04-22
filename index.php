@@ -241,7 +241,7 @@ echo "<h2 align='center' >Ви ввели :".$_POST['name2'].",".$_POST['name1']
 			</td>
 		</tr>	
 		<tr>
-			<td background="C:/Обои/images/bg-3.jpg" colspan="2" valign="middle" height="90">
+			<td background="images/bg-3.jpg" colspan="2" valign="middle" height="90">
 			<font size="4">Сайт розробив "Автор"</font>
 			</td>
 		</tr>
