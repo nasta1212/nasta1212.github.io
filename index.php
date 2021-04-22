@@ -119,24 +119,7 @@ setInterval(clockPainting, 1000);}
 	<BODY background="images/bg.jpg">
 <h1 align="center">Список зареєстрованих!</h1>
 	<table border="1" align="center" cellpadding="10">
-		      <tr>
-		<td align="center"><b>Прізвище</b></td>
-		<td align="center"><b>Ім'я</b></td>
-		<td align="center"><b>E-mail</b></td>
-		<td align="center"><b>Пароль</b></td>
-		      </tr>
-	<?php
-	$data = file("baza.txt");
-	foreach ($data as $line){
-		$trs = explode(";", $line);
-			echo '<tr>';
-		echo '<td>'.$trs[0].'</td>';
-		echo '<td>'.$trs[1].'</td>';
-		echo '<td>'.$trs[2].'</td>';
-		echo '<td>'.$trs[3].'</td>';
-				echo '<\tr>';
-		}
-		?>
+
 		</table>
 			<td background="images/bg-3.jpg" colspan="2" height="150" align="right"><font size="5"><h1 class="shadowtext">Сайт web-студії "Web-DECO"</h1></font></td>
 		</tr>
@@ -235,7 +218,7 @@ setInterval(clockPainting, 1000);}
 		</tr>	
 		<tr>
 			<td background="images/bg-3.jpg" colspan="2" valign="middle" height="90">
-			<font size="4">Сайт розробив "Автор"</font>
+			<font size="4">Сайт розробила "Лисенко Анастасія"</font>
 			</td>
 		</tr>
 	 </table>
